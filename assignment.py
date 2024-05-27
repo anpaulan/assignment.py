@@ -18,7 +18,7 @@ def bubble_srt(arr):
     print(f'Number of Bubble Swaps: {count}')
     return arr
     
-
+#Shout out to Owen for this in his Pathways session. 
 start_time = time.time()
 sorted_bubble = bubble_srt(arr)
 end_time = time.time()
