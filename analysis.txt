@@ -1,0 +1,18 @@
+Time Complexity Analysis:
+    Bubble Sort: https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-bubble-sort/
+        - Best Case: O(n) when array is already sorted
+        - Worst Case: O(n^2) when array is in decreasing order and has to go through entire length of the array
+        - Average Case:O(n^2) number of comparisions is constant, so time complexity is same as worst case
+    Selection Sort: https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-selection-sort/
+        - Best Case: O(n^2) when array is already sorted, still needs to go through both loops regardless of array state
+        - Worst Case: O(n^2) number of comparisons are the same which is why worst case is same time complexity
+        - Average Case: O(n^2) number of comparisions are the same which is why selection sort can guarentee O(n^2)
+    Insertion Sort:
+        - Best Case: O(n) when array is already sorted
+        - Worst Case: O(n^2) requires non-sorted array to compare elements, and swaps are at the max
+        - Average Case: O(n^2) requires non-sorted array to compare some elements, and number of swaps is dependent on how sorted the array is
+
+Observations: 
+    - For unsorted arrays, smaller arrays, insertion sort seems to consistently output better times. 
+    - Selection sort is consistent, and can guarentee O(n^2) in time complexity 
+    - For sorted arrays, insertion is the quickest because it needs to make one less comparison than bubble sort
